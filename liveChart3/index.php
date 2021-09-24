@@ -40,35 +40,36 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="nav nav-pills">
-                    <li class="active"><a href="#">ค่า PM1 <span class="badge"
+                <li class="active"><a href="#">PM1<span class="badge"
                                 id="txtpm1"><?php echo $resultx['PM1'];?></span></a>
                     </li>
-                    <li class="active"><a href="#">ค่า PM2.5 <span class="badge"
+                    <li class="active"><a href="#">PM2.5<span class="badge"
                                 id="txtpm2"><?php echo $resultx['PM2'];?></span></a>
                     </li>
-                    <li class="active"><a href="#">ค่า PM4 <span class="badge"
+                    <li class="active"><a href="#">PM4<span class="badge"
                                 id="txtpm4"><?php echo $resultx['PM4'];?></span></a>
                     </li>
-                    <li class="active"><a href="#">ค่า PM10 <span class="badge"
+                    <li class="active"><a href="#">PM10<span class="badge"
                                 id="txtpm10"><?php echo $resultx['PM10'];?></span></a>
                     </li>
-                	<li class="active"><a href="#">อุณหภูมิ<span class="badge"
+                	<li class="active"><a href="#">Temperature<span class="badge"
                                 id="txttemp"><?php echo $resultx['Temperature'];?></span> °C</a>
                     </li>
-                	<li class="active"><a href="#">ความชื้น<span class="badge"
+                	<li class="active"><a href="#">Humidity<span class="badge"
                                 id="txthumid"><?php echo $resultx['Humidity'];?></span> %</a>
+                    </li>
+                	<li class="active"><a href="#">Wind Speed<span class="badge"
+                                id="txtwindspeed"><?php echo $resultx['Wind_Speed'];?></span> m/s</a> 
+                    </li>
+                	<li class="active"><a href="#">Wind Direction<span class="badge"
+                                id="txtwinddirect"><?php echo $resultx['Wind_dir'];?></span></a>
                     </li>
                 <!--
                 <li class="active"><a href="#">O3<span class="badge"
                                 id="txto3"><?php //echo $resultx['O3'];?></span></a>
                     </li>
 				-->
-               		<li class="active"><a href="#">ความเร็วลม<span class="badge"
-                                id="txtwindspeed"><?php echo $resultx['Wind_Speed'];?></span> ม./วินาที</a> 
-                    </li>
-                	<li class="active"><a href="#">ทิศทางลม<span class="badge"
-                                id="txtwinddirect"><?php echo $resultx['Wind_dir'];?></span></a>
-               		</li>
+               		
                 </ul>
             </div>
         </div>
